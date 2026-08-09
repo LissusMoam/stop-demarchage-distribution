@@ -2,7 +2,7 @@
 
 <h1>Stop Démarchage</h1>
 
-<img src="assets/icone_pirates.png" width="150">
+<img src="assets/icone.png" width="150">
 
 <p><strong>Blocage automatique des appels de démarchage</strong></p>
 
