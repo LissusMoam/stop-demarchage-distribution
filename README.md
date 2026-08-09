@@ -38,7 +38,7 @@ L'application fonctionne directement sur le téléphone et ne nécessite aucune 
 ## Télécharger Stop Démarchage
 
 La dernière version de l'application est disponible ici :
-[📥 Télécharger](https://github.com/LissusMoam/stop-demarchage/releases/download/v1.0.0/app-release.apk)
+[📥 Télécharger](https://github.com/LissusMoam/stop-demarchage-distribution/releases/download/v1.0.0/app-release.apk)
 
 
 ## Installation
