@@ -36,7 +36,7 @@ Elle permet de bloquer automatiquement les appels provenant des préfixes réser
 ## Télécharger Stop Démarchage
 
 La dernière version de l'application est disponible ici :
-[📥 Télécharger](https://github.com/LissusMoam/stop-demarchage-distribution/releases/download/v1.0.0/app-release.apk)
+[📥 Télécharger](https://github.com/LissusMoam/stop-demarchage-distribution/releases/latest/download/app-release.apk)
 
 
 ## Installation
