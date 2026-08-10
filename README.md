@@ -10,11 +10,9 @@
 
 ## À propos de l'application
 
-Stop Démarchage est une application Android conçue pour filtrer les appels indésirables.
+Stop Démarchage est une application Android conçue pour filtrer automatiquement les appels indésirables.
 
-Elle permet de bloquer automatiquement les appels provenant de certains préfixes téléphoniques ainsi que les appels provenant de numéros masqués.
-
-L'application fonctionne directement sur le téléphone et ne nécessite aucune intervention une fois le filtrage activé.
+Elle permet de bloquer automatiquement les appels provenant des préfixes réservés au démarchage par l'ARCEP ainsi que ceux provenant de numéros masqués.
 
 ## Sécurité et confidentialité
 
@@ -33,7 +31,7 @@ L'application fonctionne directement sur le téléphone et ne nécessite aucune 
 - **Filtrage des préfixes** : bloque les appels provenant des numéros correspondant aux préfixes fournis par l'ARCEP.
 - **Blocage des numéros masqués** : permet de bloquer les appels dont le numéro n'est pas présenté.
 - **Filtrage activable à tout moment** : l'option de filtrage des appels masqués peut être désactivée si besoin puis réactivée à tout moment.
-- **Fonctionnement automatique** : une fois configurée, l'application filtre les appels en arrière-plan, sans intervention nécessaire.
+- **Fonctionnement automatique** : une fois configurée, l'application filtre les appels en arrière-plan sans intervention nécessaire.
 
 ## Télécharger Stop Démarchage
 
@@ -47,8 +45,9 @@ La dernière version de l'application est disponible ici :
 2. Ouvrez le fichier sur votre téléphone
 3. Android demandera l'autorisation d'installer l'application depuis cette source
 4. Installez l'application puis cliquez sur ouvrir
-5. Stop Démarchage demandera si vous souhaitez la définir comme application par défaut pour l'affichage du numéro de l'appelant : c'est le droit de filtrage dont elle a besoin
-6. Vous pouvez ensuite désactiver le blocage des Numéros masqués si besoin. Fermer l'écran d'accueil : plus aucune autre intervention ne sera ensuite nécessaire.
+5. Stop Démarchage demandera si vous souhaitez la définir comme application par défaut pour l'affichage du numéro de l'appelant : c'est le droit de filtrage dont elle a besoin pour fonctionner
+6. Vous pouvez ensuite désactiver le blocage des Numéros masqués si besoin
+7. Fermez l'écran d'accueil : plus aucune autre intervention ne sera ensuite nécessaire
 
 ## Préfixes bloqués
 
@@ -62,7 +61,7 @@ Source : [Arcep – La numérotation](https://www.arcep.fr/la-regulation/grands-
 
 ## Numéros masqués
 
-Stop Démarchage permet de bloquer les appels provenant de numéros masqués qui sont majoritairement des appels frauduleux, mais depuis le 1er janvier 2026, lorsqu'un appel provenant de l'étranger présente un numéro mobile français (06 ou 07) qui n'a pas pu être authentifié, l'opérateur doit masquer l'identifiant d'appelant.
-Il est donc possible dans Stop Démarchage, si besoin, de désactiver ce blocage.
+Stop Démarchage permet de bloquer les appels provenant de numéros masqués qui sont majoritairement des appels frauduleux, mais depuis le 1er janvier 2026 lorsqu'un appel provenant de l'étranger présente un numéro mobile français (06 ou 07) qui n'a pas pu être authentifié, l'opérateur doit masquer l'identifiant d'appelant.
+Il est donc possible, si besoin, de désactiver ce blocage dans Stop Démarchage.
 
 Source : [Arcep – Plan de numérotation](https://www.arcep.fr/actualites/actualites-et-communiques/detail/n/plan-de-numerotation-021225.html)
