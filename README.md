@@ -53,11 +53,9 @@ La dernière version de l'application est disponible ici :
 
 Stop Démarchage bloque actuellement les appels provenant des préfixes suivants :
 
-0162, 0163, 02688*, 02689*, 0270, 0271, 0377, 0378, 0424, 0425, 0568, 0569, 05987*, 05988*, 05989*, 09475 à 09479*, 0948 et 0949
+0162, 0163, 02688, 02689, 0270, 0271, 0377, 0378, 0424, 0425, 0568, 0569, 05987, 05988, 05989, 09475 à 09479, 0948 et 0949
 
 Source : [Arcep – La numérotation](https://www.arcep.fr/la-regulation/grands-dossiers-thematiques-transverses/la-numerotation.html)
-
-> **Remarque :** pour le moment les préfixes signalés par une * ne sont pas bloqués
 
 ## Numéros masqués
 
