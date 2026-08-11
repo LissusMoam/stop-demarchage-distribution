@@ -10,9 +10,11 @@
 
 ## À propos de l'application
 
-Stop Démarchage est une application Android conçue pour filtrer automatiquement les appels indésirables.
+Stop Démarchage est une application Android conçue pour filtrer les appels indésirables.
 
-Elle permet de bloquer automatiquement les appels provenant des préfixes réservés au démarchage par l'ARCEP ainsi que ceux provenant de numéros masqués.
+Elle bloque automatiquement les numéros français réservés par l'ARCEP pour le démarchage,
+ainsi que les appels de numéros masqués : le téléphone ne sonne pas et l'appel est rejeté.
+Les appels ainsi bloqués restent visibles dans l'historique des appels.
 
 ## Sécurité et confidentialité
 
@@ -28,16 +30,15 @@ Elle permet de bloquer automatiquement les appels provenant des préfixes réser
 
 ## Fonctionnalités
 
-- **Filtrage des préfixes** : bloque les appels provenant des numéros correspondant aux préfixes fournis par l'ARCEP.
-- **Blocage des numéros masqués** : permet de bloquer les appels dont le numéro n'est pas présenté.
-- **Filtrage activable à tout moment** : l'option de filtrage des appels masqués peut être désactivée si besoin puis réactivée à tout moment.
-- **Fonctionnement automatique** : une fois configurée, l'application filtre les appels en arrière-plan sans intervention nécessaire.
+- **Filtrage des préfixes** : bloque les appels provenant des numéros dont le préfixe est dans la liste de l'ARCEP.
+- **Blocage des numéros masqués** : permet de bloquer les appels dont le numéro n'est pas présenté (appel masqué).
+- **Filtrage activable à tout moment** : l'option de filtrage des appels masqués peut être désactivée si besoin, puis réactivée, à tout moment.
+- **Fonctionnement automatique** : une fois configurée, l'application filtre les appels en arrière-plan sans aucune intervention nécessaire.
 
 ## Télécharger Stop Démarchage
 
 La dernière version de l'application est disponible ici :
 [📥 Télécharger](https://github.com/LissusMoam/stop-demarchage-distribution/releases/latest/download/app-release.apk)
-
 
 ## Installation
 
@@ -63,3 +64,4 @@ Stop Démarchage permet de bloquer les appels provenant de numéros masqués qui
 Il est donc possible, si besoin, de désactiver ce blocage dans Stop Démarchage.
 
 Source : [Arcep – Plan de numérotation](https://www.arcep.fr/actualites/actualites-et-communiques/detail/n/plan-de-numerotation-021225.html)
+
