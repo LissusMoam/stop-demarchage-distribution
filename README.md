@@ -2,7 +2,7 @@
 
 <h1>Stop Démarchage</h1>
 
-<img src="assets/icone.png" width="150">
+<img src="assets/icone_pirates.png" width="150" alt="Logo Stop Démarchage">
 
 <p><strong>Blocage automatique des appels de démarchage</strong></p>
 
@@ -14,24 +14,29 @@ Stop Démarchage est une application Android conçue pour filtrer les appels ind
 
 Elle bloque automatiquement les numéros français réservés par l'ARCEP pour le démarchage,
 ainsi que les appels de numéros masqués : le téléphone ne sonne pas et l'appel est rejeté.
-Les appels ainsi bloqués restent visibles dans l'historique des appels.
+Les appels ainsi bloqués restent visibles dans l'historique des appels, et l'interlocuteur 
+peux laisser un message vocal.
+
 
 ## Sécurité et confidentialité
 
 - **Aucune donnée n'est collectée**
 - **Aucune donnée n'est transmise à des tiers**
 - **Aucun compte utilisateur n'est nécessaire**
-- **Aucune donnée relative aux appels n'est stockée**
 - **L'application ne communique avec aucun serveur distant**
+- **La recherche dans les contacts est effectuée localement sur le téléphone.**
+- **La journalisation de diagnostic, lorsqu'elle est activée, 
+conserve temporairement des traces dans l'espace privé de l'application.**
 
 ## Aperçu
 
-<img src="assets/Ecran d'accueil.jpg" width="300">
+<img src="assets/Ecran d'accueil.jpg" width="300" alt="Écran d'accueil de Stop Démarchage">
 
 ## Fonctionnalités
 
 - **Filtrage des préfixes** : bloque les appels provenant des numéros dont le préfixe est dans la liste de l'ARCEP.
 - **Blocage des numéros masqués** : permet de bloquer les appels dont le numéro n'est pas présenté (appel masqué).
+- **Blocage des numéros hors contacts** : permet de bloquer les appels provenant de numéros qui ne figurent pas dans le carnet d'adresses. Cette option nécessite l'autorisation d'accès aux contacts.
 - **Filtrage activable à tout moment** : l'option de filtrage des appels masqués peut être désactivée si besoin, puis réactivée, à tout moment.
 - **Fonctionnement automatique** : une fois configurée, l'application filtre les appels en arrière-plan sans aucune intervention nécessaire.
 
@@ -40,6 +45,7 @@ Les appels ainsi bloqués restent visibles dans l'historique des appels.
 La dernière version de l'application est disponible ici :
 [📥 Télécharger](https://github.com/LissusMoam/stop-demarchage-distribution/releases/latest/download/app-release.apk)
 
+
 ## Installation
 
 1. Téléchargez le package depuis le lien ci-dessus
@@ -47,7 +53,7 @@ La dernière version de l'application est disponible ici :
 3. Android demandera l'autorisation d'installer l'application depuis cette source
 4. Installez l'application puis cliquez sur ouvrir
 5. Stop Démarchage demandera si vous souhaitez la définir comme application par défaut pour l'affichage du numéro de l'appelant : c'est le droit de filtrage dont elle a besoin pour fonctionner
-6. Vous pouvez ensuite désactiver le blocage des Numéros masqués si besoin
+6. Vous pouvez ensuite configurer les différentes options de blocage. Si vous activez le blocage des numéros hors contacts, Android vous demandera l'autorisation d'accès aux contacts.
 7. Fermez l'écran d'accueil : plus aucune autre intervention ne sera ensuite nécessaire
 
 ## Préfixes bloqués
@@ -65,3 +71,9 @@ Il est donc possible, si besoin, de désactiver ce blocage dans Stop Démarchage
 
 Source : [Arcep – Plan de numérotation](https://www.arcep.fr/actualites/actualites-et-communiques/detail/n/plan-de-numerotation-021225.html)
 
+## Numéros hors contacts
+
+Cette option permet de bloquer automatiquement les appels provenant de numéros qui ne sont pas enregistrés dans le carnet d'adresses.
+Lorsqu'elle est activée, l'application vérifie localement si le numéro appelant figure dans les contacts du téléphone. Si le numéro n'est pas trouvé, l'appel est bloqué.
+L'accès aux contacts est demandé par Android lors de la première activation de cette option. Aucun contact n'est transmis à l'extérieur du téléphone.
+Cette fonctionnalité peut être activée ou désactivée à tout moment.
